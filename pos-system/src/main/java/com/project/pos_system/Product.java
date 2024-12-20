@@ -20,6 +20,15 @@ public class Product {
     private Double price;
     private Integer stock;
 
+    public Product() {
+    }
+
+    public Product( String name, Double price, Integer stock) {
+        this.name = name;
+        this.price = price;
+        this.stock = stock;
+    }
+
     public long getId() {
         return id;
     }
